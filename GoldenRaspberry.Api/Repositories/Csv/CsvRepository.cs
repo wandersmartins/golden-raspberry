@@ -16,10 +16,8 @@ namespace GoldenRaspberry.Api.Repositories.Csv
 
         public void LoadMoviesFromCsv(AppDbContext context, string filePath)
         {
-            // Limpar tabelas para evitar duplicação
             ClearAllTables();
 
-            // Cache para produtores e estúdios já processados
             var producerCache = new Dictionary<string, Producer>();
             var studioCache = new Dictionary<string, Studio>();
 
@@ -88,7 +86,6 @@ namespace GoldenRaspberry.Api.Repositories.Csv
             _context.SaveChanges();
         }
 
-        // Método auxiliar para buscar ou criar um estúdio
         private Studio GetOrCreateStudio(AppDbContext context, string studioName)
         {
             var studio = context.Studios.FirstOrDefault(s => s.Name == studioName);
@@ -100,7 +97,6 @@ namespace GoldenRaspberry.Api.Repositories.Csv
             return studio;
         }
 
-        // Método auxiliar para buscar ou criar um produtor
         private Producer GetOrCreateProducer(AppDbContext context, string producerName)
         {
             var producer = context.Producers.FirstOrDefault(p => p.Name == producerName);

@@ -1,7 +1,5 @@
 ﻿using GoldenRaspberry.Api.Data;
-using GoldenRaspberry.Api.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 
 namespace GoldenRaspberry.Api.Repositories.Producers
 {

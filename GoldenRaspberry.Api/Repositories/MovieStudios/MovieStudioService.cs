@@ -20,7 +20,6 @@ namespace GoldenRaspberry.Api.Repositories.MovieStudios
         {
             try
             {
-                _logger.LogInformation("Buscando todos os estúdios de filmes.");
                 return await _context.MovieStudios.ToListAsync();
             }
             catch (Exception ex)

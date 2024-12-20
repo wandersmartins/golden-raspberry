@@ -19,7 +19,6 @@ namespace GoldenRaspberry.Api.Repositories.Studios
         {
             try
             {
-                _logger.LogInformation("Buscando todos os estúdios.");
                 return await _context.Studios.ToListAsync();
             }
             catch (Exception ex)

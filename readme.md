@@ -15,6 +15,9 @@ Este projeto é uma API desenvolvida em .NET para gerenciar e exibir informaçõ
   - Listagem de filmes com paginação.
   - Anos disponíveis.
 
+- **Swagger**:
+  - Swagger para testes dos endpoints.
+
 - **Tests**:
   - Possui projeto de teste de integração.
 
@@ -29,7 +32,7 @@ Este projeto é uma API desenvolvida em .NET para gerenciar e exibir informaçõ
 ## Requisitos
 
 - **.NET 7** ou superior.
-- **IDE** Visual Studio.
+- **IDE:** Visual Studio 2022.
 
 ---
 
@@ -38,6 +41,16 @@ Este projeto é uma API desenvolvida em .NET para gerenciar e exibir informaçõ
 1. Clone o repositório:
 
    ```bash
-   git clone <url_do_repositorio>
+   git clone https://github.com/wandersmartins/golden-raspberry-backend.git
 
-2. Abra e rode no Visual Studio mais recente.
+2. Abra o preojeto pelo Visual Studio ou Clicando 2 vezes sobre a Solutiion em: GoldenRaspberry.Api/GoldenRaspberry.Api.sln
+
+3. Se necessário defina o projeto GoldenRaspberry.Api como "startup project", clicando sobre ele com o botão direito.
+
+4. Clique em "play" para rodar a API e visualizar a página do Swagger.
+
+5. Rodar o projeto de Frontend Angular.
+
+## Teste de Integração
+
+1.Para rodar o teste de integração vá no **menu > Test > Test Manager ** ao apresentar a janela clique no botão "play"
