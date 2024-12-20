@@ -1,6 +1,3 @@
-Aqui está o conteúdo para um arquivo `.gitignore` adequado para o seu projeto, que inclui um backend em .NET e um frontend em Angular:
-
-```gitignore
 # Backend: .NET
 bin/
 obj/
@@ -25,25 +22,15 @@ error.log
 .DS_Store
 Thumbs.db
 
-# Frontend: Node.js / Angular
-node_modules/
-dist/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Testes: .NET
+TestResults/
+coverage/
+*.trx
 
 # Ambientes
 .env
 .env.local
 .env.*.local
-
-# Angular Build Artifacts
-.angular/
-.angular-cache/
-
-# Test Results
-coverage/
-*.lcov
 
 # Editor / IDE
 *.swp
@@ -51,4 +38,4 @@ coverage/
 *.tmp
 *.pid
 *.seed
-*.
+*~
