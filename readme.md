@@ -15,14 +15,21 @@ Este projeto é uma API desenvolvida em .NET para gerenciar e exibir informaçõ
   - Listagem de filmes com paginação.
   - Anos disponíveis.
 
+- **Tests**:
+  - Possui projeto de teste de integração.
+
 - **Banco de Dados**:
   - Configurado para utilizar um banco de dados em memória (InMemory) para simplificar testes e execução local.
+
+- **Massa de Dados**:
+  - Proveniente do arquivo csv em wwwroot/data/movie.csv
 
 ---
 
 ## Requisitos
 
 - **.NET 7** ou superior.
+- **IDE** Visual Studio.
 
 ---
 
@@ -32,3 +39,5 @@ Este projeto é uma API desenvolvida em .NET para gerenciar e exibir informaçõ
 
    ```bash
    git clone <url_do_repositorio>
+
+2. Abra e rode no Visual Studio mais recente.
