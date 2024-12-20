@@ -1,4 +1,4 @@
-# Golden Raspberry Awards Dashboard
+# Golden Raspberry Awards Backend
 
 ## Descrição
 
